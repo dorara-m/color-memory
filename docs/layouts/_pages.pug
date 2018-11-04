@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    block title
+      title color-memory-pages
+    meta(name='description', content='sample-description')
+    meta(name='viewport', content='width=device-width')
+
+    link(rel='stylesheet', href='../assets/styles/style.css')
+    block style
+  body: .l-wrap
+    header.l-header: .l-container
+      h1 
+        a(href='../') カラバリ班サイト
+      
+    main.l-main
+      section.p-section.p-section--first
+        .l-container
+          block content_first
+            h2 研究タイトル
+            p サブタイトル
+            //- img(src="../assets/images/cat.jpg", alt="")
+      section.p-section.p-section--second
+        .l-container
+          h2 研究目的
+          block content_second
+            p これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。
+            p これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。
+      section.p-section.p-section--third
+        .l-container
+          h2 研究方法
+          block content_third
+            p これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。
+      section.p-section.p-section--fourth
+        .l-container
+          h2 研究結果
+          block content_fourth
+            p これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。これはサンプルテキストです。
+      
+    footer.l-footer
+      p made by TEAM Color-barri
+    

@@ -1,0 +1,20 @@
+.c-btn {
+  border-radius: 10px;
+  border: 1px solid #444;
+  padding: 7px 20px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: .5s;
+  &--span {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  &:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  & + .c-btn {
+    margin-left: 20px;
+  }
+}
