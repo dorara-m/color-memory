@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title color-memory-red
+    meta(name='description', content='sample-description')
+    meta(name='viewport', content='width=device-width')
+
+    link(rel='stylesheet', href='../assets/styles/style.css')
+  body: .l-wrap
+    header.l-header: .l-container
+      h1
+        a(href='../') カラバリ班サイト
+      
+    main.l-main.p-top
+      section.l-container__m
+        .p-red.u-mM
+          h2 赤ページ
+        .u-mM
+          a(href='../sample.html').c-btn サンプル
+        .p-random.u-mL 
+          #btn.c-btn ランダムスイッチ
+          p.u-mS#area ここに順番が表示されます。
+        .u-mM
+          a(href='page1.html').c-btn 
+            span.c-btn--span 1
+            | 類似
+          a(href='page2.html').c-btn
+            span.c-btn--span 2
+            | 明度対象
+          a(href='page3.html').c-btn
+            span.c-btn--span 3
+            | 彩度対象
+          a(href='page4.html').c-btn
+            span.c-btn--span 4
+            | 明彩度対象
+          
+      
+    footer.l-footer
+      p Made by TEAM Color-barri
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js",integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=", crossorigin="anonymous")
+    script(src="../assets/scripts/script.js")
+    

@@ -1,6 +1,8 @@
 .p-top {
   h2 {
-    font-size: 24px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
   }
 }
 
@@ -12,4 +14,11 @@
     font-weight: bold;
     font-size: 26px;
   }
+}
+
+.p-red {
+  color: red;
+}
+.p-blue {
+  color: blue;
 }

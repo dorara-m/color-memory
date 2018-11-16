@@ -24,43 +24,21 @@
   }
 }
 
-.c-tag {
-  display: inline-block;
-  padding: 3px 5px;
-  border: 1px solid #444;
-  border-radius: 8px;
-  & + .c-tag {
-    margin-left: 10px;
-  }
-}
-
 .p-section--first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h2 {
-    font-size: 40px;
     text-align: center;
   }
   h3 {
-    margin-top: 10px;
     text-align: center;
-  }
-  .c-tag-area {
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 }
-
-// .p-section--second {
-  // background-color: #444;
-  // color: #fff;
-// }
 
 .p-section--third {
   ul {
     list-style: disc;
   }
 }
-
-// .p-section--fourth {
-  
-// }
