@@ -35,6 +35,178 @@
     "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
+        "file": "blue/index.pug",
+        "sha": "a91aa470cb68dc4856d39a110b47c27dc93759e1"
+      }
+    ],
+    "outputSha": "3e7e7e13b7e0225ecc8d365106db5599439c3994",
+    "input": "blue/index.pug",
+    "output": [
+      "blue/index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page1.pug",
+        "sha": "2ca84f08cfcfef790b0ca5b8df304aceee0ce5ea"
+      },
+      {
+        "file": "layouts/_page1.pug",
+        "sha": "d398211bcda34cf2ee2ed0039f971b138508a517"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "8bd18c38ffba66517424024851e7641b75bf6642",
+    "input": "blue/page1.pug",
+    "output": [
+      "blue/page1.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page2.pug",
+        "sha": "35bfa2d9c71179af863e1c3737140644171385cc"
+      },
+      {
+        "file": "layouts/_page2.pug",
+        "sha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "e372129b3d05ef118e858b34ba7b9748cda65275",
+    "input": "blue/page2.pug",
+    "output": [
+      "blue/page2.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page3.pug",
+        "sha": "227d0eb66ca7cc2425f9127a77318a9c6fc7b605"
+      },
+      {
+        "file": "layouts/_page3.pug",
+        "sha": "6163f4023b97cf4837bc63e70c9b83956d46a7c6"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "1eee667af6374c4c98e8062ccaece1cbbce3001a",
+    "input": "blue/page3.pug",
+    "output": [
+      "blue/page3.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page4.pug",
+        "sha": "4a443e7456fdb81f463c2d249cf17a47b44327ca"
+      },
+      {
+        "file": "layouts/_page4.pug",
+        "sha": "1578d579864a0dff0264d77519d1cabaa12c0a80"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "e0f39bbe119708eb4e9f284a5934dbe96f24f277",
+    "input": "blue/page4.pug",
+    "output": [
+      "blue/page4.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layouts/_page1.pug",
+        "sha": "d398211bcda34cf2ee2ed0039f971b138508a517"
+      }
+    ],
+    "outputSha": "d398211bcda34cf2ee2ed0039f971b138508a517",
+    "input": "layouts/_page1.pug",
+    "output": [
+      "layouts/_page1.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layouts/_page2.pug",
+        "sha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57"
+      }
+    ],
+    "outputSha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57",
+    "input": "layouts/_page2.pug",
+    "output": [
+      "layouts/_page2.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layouts/_page3.pug",
+        "sha": "6163f4023b97cf4837bc63e70c9b83956d46a7c6"
+      }
+    ],
+    "outputSha": "6163f4023b97cf4837bc63e70c9b83956d46a7c6",
+    "input": "layouts/_page3.pug",
+    "output": [
+      "layouts/_page3.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layouts/_page4.pug",
+        "sha": "1578d579864a0dff0264d77519d1cabaa12c0a80"
+      }
+    ],
+    "outputSha": "1578d579864a0dff0264d77519d1cabaa12c0a80",
+    "input": "layouts/_page4.pug",
+    "output": [
+      "layouts/_page4.pug"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "173ac43c00242c9384def1323714ae694cf6a639",
+    "input": "layouts/_pages.pug",
+    "output": [
+      "layouts/_pages.pug"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
         "file": "mono/index.pug",
         "sha": "85e4670f7354b9e05764d47575d1d4468d512f35"
       }
@@ -54,14 +226,14 @@
       },
       {
         "file": "layouts/_page1.pug",
-        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
+        "sha": "d398211bcda34cf2ee2ed0039f971b138508a517"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "e852449a9ebc87ebc8dfb68d9ea938a5bc7244c6",
+    "outputSha": "25a36f1fde49e9f72637543ab410a53ca7d65298",
     "input": "mono/page1.pug",
     "output": [
       "mono/page1.html"
@@ -76,14 +248,14 @@
       },
       {
         "file": "layouts/_page2.pug",
-        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
+        "sha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "829952b379fea5da4c5cd600d6368c53d71d968a",
+    "outputSha": "6b19bb01a59cd8ade48967f9c602e1c4d9fb723d",
     "input": "mono/page2.pug",
     "output": [
       "mono/page2.html"
@@ -116,14 +288,14 @@
       },
       {
         "file": "layouts/_page4.pug",
-        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
+        "sha": "1578d579864a0dff0264d77519d1cabaa12c0a80"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "793ab50301f5cd95d3cd646bbc7939be7264736c",
+    "outputSha": "3674fb348a5d02bf51eb06f4aa4976f7bdb12a04",
     "input": "mono/page4.pug",
     "output": [
       "mono/page4.html"
@@ -133,102 +305,22 @@
     "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
-        "file": "blue/index.pug",
-        "sha": "a91aa470cb68dc4856d39a110b47c27dc93759e1"
-      }
-    ],
-    "outputSha": "3e7e7e13b7e0225ecc8d365106db5599439c3994",
-    "input": "blue/index.pug",
-    "output": [
-      "blue/index.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page1.pug",
-        "sha": "2ca84f08cfcfef790b0ca5b8df304aceee0ce5ea"
+        "file": "red/page1.pug",
+        "sha": "a1b095ae48ecc64c9290357e63e11792318604b3"
       },
       {
         "file": "layouts/_page1.pug",
-        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
+        "sha": "d398211bcda34cf2ee2ed0039f971b138508a517"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "ba5362caaab3e6f39aafe00d2838b9d36c51d52f",
-    "input": "blue/page1.pug",
+    "outputSha": "c414397c6be0f1025520a49b8d005ebb6751a6c3",
+    "input": "red/page1.pug",
     "output": [
-      "blue/page1.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page2.pug",
-        "sha": "35bfa2d9c71179af863e1c3737140644171385cc"
-      },
-      {
-        "file": "layouts/_page2.pug",
-        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "a74ea438bf0fe1f02716b527f44dcf891bf162ee",
-    "input": "blue/page2.pug",
-    "output": [
-      "blue/page2.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page3.pug",
-        "sha": "227d0eb66ca7cc2425f9127a77318a9c6fc7b605"
-      },
-      {
-        "file": "layouts/_page3.pug",
-        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "1b172e0963a102fb1dc646579cb6200b4a2c8d7b",
-    "input": "blue/page3.pug",
-    "output": [
-      "blue/page3.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page4.pug",
-        "sha": "4a443e7456fdb81f463c2d249cf17a47b44327ca"
-      },
-      {
-        "file": "layouts/_page4.pug",
-        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "e536d1b394d88a9c7ac573ad880def307cdb0792",
-    "input": "blue/page4.pug",
-    "output": [
-      "blue/page4.html"
+      "red/page1.html"
     ]
   },
   {
@@ -249,41 +341,19 @@
     "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
-        "file": "red/page1.pug",
-        "sha": "a1b095ae48ecc64c9290357e63e11792318604b3"
-      },
-      {
-        "file": "layouts/_page1.pug",
-        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "e88c47c7f3762b32d2cb9a9d131e07c42bf57df2",
-    "input": "red/page1.pug",
-    "output": [
-      "red/page1.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
         "file": "red/page2.pug",
         "sha": "f5660b60f76b50d55badced417f07e95b340e8aa"
       },
       {
         "file": "layouts/_page2.pug",
-        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
+        "sha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "e2bf192da5ee8ad05ad340facb52fa2bf5b6e744",
+    "outputSha": "2393585fa4be1acbaa54acfbf0d7a57741467984",
     "input": "red/page2.pug",
     "output": [
       "red/page2.html"
@@ -298,14 +368,14 @@
       },
       {
         "file": "layouts/_page3.pug",
-        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
+        "sha": "6163f4023b97cf4837bc63e70c9b83956d46a7c6"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "ef0a4df68827e60f1cd22e21ddb7c64f4e172d31",
+    "outputSha": "546c1befd7550b079ddc060311bfd9fe20505a20",
     "input": "red/page3.pug",
     "output": [
       "red/page3.html"
@@ -320,87 +390,17 @@
       },
       {
         "file": "layouts/_page4.pug",
-        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
+        "sha": "1578d579864a0dff0264d77519d1cabaa12c0a80"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "15510f2fed1b7d397653d73633fc48d8391f4b77",
+    "outputSha": "4f6a271fc43594db7bb66a29bd28be20fc1f04b4",
     "input": "red/page4.pug",
     "output": [
       "red/page4.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layouts/_page1.pug",
-        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
-      }
-    ],
-    "outputSha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3",
-    "input": "layouts/_page1.pug",
-    "output": [
-      "layouts/_page1.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layouts/_page2.pug",
-        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
-      }
-    ],
-    "outputSha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4",
-    "input": "layouts/_page2.pug",
-    "output": [
-      "layouts/_page2.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layouts/_page3.pug",
-        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
-      }
-    ],
-    "outputSha": "865850218f52cf2e81e4c8dcf5c129927689f123",
-    "input": "layouts/_page3.pug",
-    "output": [
-      "layouts/_page3.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layouts/_page4.pug",
-        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
-      }
-    ],
-    "outputSha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58",
-    "input": "layouts/_page4.pug",
-    "output": [
-      "layouts/_page4.pug"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "173ac43c00242c9384def1323714ae694cf6a639",
-    "input": "layouts/_pages.pug",
-    "output": [
-      "layouts/_pages.pug"
     ]
   },
   {
@@ -462,48 +462,6 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "assets/styles/layout/_footer.scss",
-        "sha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8"
-      }
-    ],
-    "outputSha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8",
-    "input": "assets/styles/layout/_footer.scss",
-    "output": [
-      "assets/styles/layout/_footer.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/layout/_header.scss",
-        "sha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad"
-      }
-    ],
-    "outputSha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad",
-    "input": "assets/styles/layout/_header.scss",
-    "output": [
-      "assets/styles/layout/_header.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/layout/_main.scss",
-        "sha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61"
-      }
-    ],
-    "outputSha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61",
-    "input": "assets/styles/layout/_main.scss",
-    "output": [
-      "assets/styles/layout/_main.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
         "file": "assets/styles/foundation/_base.scss",
         "sha": "e37a3f52f39afeb8bfbfd2d31d90b0ff1e7c7be5"
       }
@@ -554,6 +512,48 @@
     "input": "assets/styles/foundation/_variables.scss",
     "output": [
       "assets/styles/foundation/_variables.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/layout/_footer.scss",
+        "sha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8"
+      }
+    ],
+    "outputSha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8",
+    "input": "assets/styles/layout/_footer.scss",
+    "output": [
+      "assets/styles/layout/_footer.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/layout/_header.scss",
+        "sha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad"
+      }
+    ],
+    "outputSha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad",
+    "input": "assets/styles/layout/_header.scss",
+    "output": [
+      "assets/styles/layout/_header.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/layout/_main.scss",
+        "sha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61"
+      }
+    ],
+    "outputSha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61",
+    "input": "assets/styles/layout/_main.scss",
+    "output": [
+      "assets/styles/layout/_main.scss"
     ]
   },
   {
@@ -695,14 +695,28 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "assets/styles/object/component/_btn.scss",
-        "sha": "84db04bc724f18979b6763596a49cbe74f189963"
+        "file": "assets/styles/object/utility/_display.scss",
+        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
       }
     ],
-    "outputSha": "84db04bc724f18979b6763596a49cbe74f189963",
-    "input": "assets/styles/object/component/_btn.scss",
+    "outputSha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "input": "assets/styles/object/utility/_display.scss",
     "output": [
-      "assets/styles/object/component/_btn.scss"
+      "assets/styles/object/utility/_display.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/object/utility/_margin.scss",
+        "sha": "8e1e905f17f3df2b5eb0d04d854496df6e97a4e0"
+      }
+    ],
+    "outputSha": "8e1e905f17f3df2b5eb0d04d854496df6e97a4e0",
+    "input": "assets/styles/object/utility/_margin.scss",
+    "output": [
+      "assets/styles/object/utility/_margin.scss"
     ]
   },
   {
@@ -737,28 +751,14 @@
     "type": "::map::minify",
     "inputSha": [
       {
-        "file": "assets/styles/object/utility/_display.scss",
-        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        "file": "assets/styles/object/component/_btn.scss",
+        "sha": "84db04bc724f18979b6763596a49cbe74f189963"
       }
     ],
-    "outputSha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "input": "assets/styles/object/utility/_display.scss",
+    "outputSha": "84db04bc724f18979b6763596a49cbe74f189963",
+    "input": "assets/styles/object/component/_btn.scss",
     "output": [
-      "assets/styles/object/utility/_display.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/object/utility/_margin.scss",
-        "sha": "8e1e905f17f3df2b5eb0d04d854496df6e97a4e0"
-      }
-    ],
-    "outputSha": "8e1e905f17f3df2b5eb0d04d854496df6e97a4e0",
-    "input": "assets/styles/object/utility/_margin.scss",
-    "output": [
-      "assets/styles/object/utility/_margin.scss"
+      "assets/styles/object/component/_btn.scss"
     ]
   }
 ]
