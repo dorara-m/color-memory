@@ -17,18 +17,116 @@
     "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
-        "file": "sample.pug",
-        "sha": "4436bbcc1b072046c0328d7a8b784c2e5e2828a0"
+        "file": "mono/index.pug",
+        "sha": "eb932273fba008b28435609eba39dd888eb7ec59"
+      }
+    ],
+    "outputSha": "778a5ce3c56fe96e3e78dec7417a679315fdbf26",
+    "input": "mono/index.pug",
+    "output": [
+      "mono/index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "mono/page1.pug",
+        "sha": "735e387346357e887a11c929ab9070f8e5bdf3db"
+      },
+      {
+        "file": "layouts/_page1.pug",
+        "sha": "d398211bcda34cf2ee2ed0039f971b138508a517"
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "31e7661392b13055531d14434570437dd5d702d8",
-    "input": "sample.pug",
+    "outputSha": "1fed937411f07284541aea5e09fd255fc6ca5430",
+    "input": "mono/page1.pug",
     "output": [
-      "sample.html"
+      "mono/page1.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "mono/page2.pug",
+        "sha": "bf45a9e4ee0d995feaa5acd1d976e5f733ef5e19"
+      },
+      {
+        "file": "layouts/_page2.pug",
+        "sha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
+      }
+    ],
+    "outputSha": "c8a50b2ce0e1d11389121b0c7486838e97ded6eb",
+    "input": "mono/page2.pug",
+    "output": [
+      "mono/page2.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "mono/page3.pug",
+        "sha": "0a9550707493e1c6bb98aaf60dc3fa6a20edbdac"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
+      }
+    ],
+    "outputSha": "48ba824b4e895953c850ee2a5a72e2ae175cd4f4",
+    "input": "mono/page3.pug",
+    "output": [
+      "mono/page3.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "mono/page4.pug",
+        "sha": "f789883fc8824395c084e1047fd1b068282b3a0a"
+      },
+      {
+        "file": "layouts/_page4.pug",
+        "sha": "1578d579864a0dff0264d77519d1cabaa12c0a80"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
+      }
+    ],
+    "outputSha": "222a35dd7342ca5f76a39e9947284771657519d8",
+    "input": "mono/page4.pug",
+    "output": [
+      "mono/page4.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "mono/sample.pug",
+        "sha": "e1d22e70750800cd8634057c77bdb7b09c76a4ef"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
+      }
+    ],
+    "outputSha": "bc835e73ef9a1d8b4ccfba91b73ea9070da9be89",
+    "input": "mono/sample.pug",
+    "output": [
+      "mono/sample.html"
     ]
   },
   {
@@ -36,10 +134,10 @@
     "inputSha": [
       {
         "file": "blue/index.pug",
-        "sha": "a91aa470cb68dc4856d39a110b47c27dc93759e1"
+        "sha": "aa15f3b87bb8f862d98658aa4356df3e8a32afe8"
       }
     ],
-    "outputSha": "3e7e7e13b7e0225ecc8d365106db5599439c3994",
+    "outputSha": "8d0f32d6fcbc922d34288d9c0730dfc49a822234",
     "input": "blue/index.pug",
     "output": [
       "blue/index.html"
@@ -58,10 +156,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "8bd18c38ffba66517424024851e7641b75bf6642",
+    "outputSha": "3d5de6e9b0350e879c84aefa0cbf062dceffceb6",
     "input": "blue/page1.pug",
     "output": [
       "blue/page1.html"
@@ -80,10 +178,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "e372129b3d05ef118e858b34ba7b9748cda65275",
+    "outputSha": "ac34638ada4cd640aa8ec8602281b7e4cc183151",
     "input": "blue/page2.pug",
     "output": [
       "blue/page2.html"
@@ -102,10 +200,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "1eee667af6374c4c98e8062ccaece1cbbce3001a",
+    "outputSha": "f4fc6726de68542c0a07b1b2e241912e0a30d596",
     "input": "blue/page3.pug",
     "output": [
       "blue/page3.html"
@@ -124,10 +222,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "e0f39bbe119708eb4e9f284a5934dbe96f24f277",
+    "outputSha": "aee3a1df6fcb6542c9f6b01d165d2b098d917068",
     "input": "blue/page4.pug",
     "output": [
       "blue/page4.html"
@@ -194,10 +292,10 @@
     "inputSha": [
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "173ac43c00242c9384def1323714ae694cf6a639",
+    "outputSha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d",
     "input": "layouts/_pages.pug",
     "output": [
       "layouts/_pages.pug"
@@ -207,98 +305,14 @@
     "type": "pug@2.0.3::map::minify",
     "inputSha": [
       {
-        "file": "mono/index.pug",
-        "sha": "85e4670f7354b9e05764d47575d1d4468d512f35"
+        "file": "red/index.pug",
+        "sha": "f499b46c56ca75b8fafb39029e81348070f438ac"
       }
     ],
-    "outputSha": "0a710b838c477ed851d60118d4dd44eb3e31430c",
-    "input": "mono/index.pug",
+    "outputSha": "c077d9b94e527594e92101fb47ef015126836eee",
+    "input": "red/index.pug",
     "output": [
-      "mono/index.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "mono/page1.pug",
-        "sha": "735e387346357e887a11c929ab9070f8e5bdf3db"
-      },
-      {
-        "file": "layouts/_page1.pug",
-        "sha": "d398211bcda34cf2ee2ed0039f971b138508a517"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "25a36f1fde49e9f72637543ab410a53ca7d65298",
-    "input": "mono/page1.pug",
-    "output": [
-      "mono/page1.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "mono/page2.pug",
-        "sha": "bf45a9e4ee0d995feaa5acd1d976e5f733ef5e19"
-      },
-      {
-        "file": "layouts/_page2.pug",
-        "sha": "f1231b9833c84b0811a9b896cbfe7dbf3d5c9b57"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "6b19bb01a59cd8ade48967f9c602e1c4d9fb723d",
-    "input": "mono/page2.pug",
-    "output": [
-      "mono/page2.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "mono/page3.pug",
-        "sha": "0a9550707493e1c6bb98aaf60dc3fa6a20edbdac"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "9a31468529a3b399b92002cce8527b71fad94570",
-    "input": "mono/page3.pug",
-    "output": [
-      "mono/page3.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "mono/page4.pug",
-        "sha": "f789883fc8824395c084e1047fd1b068282b3a0a"
-      },
-      {
-        "file": "layouts/_page4.pug",
-        "sha": "1578d579864a0dff0264d77519d1cabaa12c0a80"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "3674fb348a5d02bf51eb06f4aa4976f7bdb12a04",
-    "input": "mono/page4.pug",
-    "output": [
-      "mono/page4.html"
+      "red/index.html"
     ]
   },
   {
@@ -314,27 +328,13 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "c414397c6be0f1025520a49b8d005ebb6751a6c3",
+    "outputSha": "ebf3d6d76bc0df0f6023e60c1ccadcd9546f6f53",
     "input": "red/page1.pug",
     "output": [
       "red/page1.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "red/index.pug",
-        "sha": "8b99ba482a720493a10a924af89f18a04e7193a9"
-      }
-    ],
-    "outputSha": "5efdf4a9dbaca78bad5b386d3bb1a4ac86829840",
-    "input": "red/index.pug",
-    "output": [
-      "red/index.html"
     ]
   },
   {
@@ -350,10 +350,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "2393585fa4be1acbaa54acfbf0d7a57741467984",
+    "outputSha": "af881e89483bf01a5b33ab3cb9874098ec7ba3df",
     "input": "red/page2.pug",
     "output": [
       "red/page2.html"
@@ -372,10 +372,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "546c1befd7550b079ddc060311bfd9fe20505a20",
+    "outputSha": "7a5fb02b0510f8320c9b375a7c2607a886618d78",
     "input": "red/page3.pug",
     "output": [
       "red/page3.html"
@@ -394,10 +394,10 @@
       },
       {
         "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+        "sha": "41c0759db0f5b59cb7215fd150eb1ba2d8f3514d"
       }
     ],
-    "outputSha": "4f6a271fc43594db7bb66a29bd28be20fc1f04b4",
+    "outputSha": "f987941b918096b094ad9fa2ecc507bb6f0f2c08",
     "input": "red/page4.pug",
     "output": [
       "red/page4.html"
@@ -456,62 +456,6 @@
     "output": [
       "assets/styles/style.css.map",
       "assets/styles/style.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/foundation/_base.scss",
-        "sha": "e37a3f52f39afeb8bfbfd2d31d90b0ff1e7c7be5"
-      }
-    ],
-    "outputSha": "e37a3f52f39afeb8bfbfd2d31d90b0ff1e7c7be5",
-    "input": "assets/styles/foundation/_base.scss",
-    "output": [
-      "assets/styles/foundation/_base.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/foundation/_function.scss",
-        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-      }
-    ],
-    "outputSha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-    "input": "assets/styles/foundation/_function.scss",
-    "output": [
-      "assets/styles/foundation/_function.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/foundation/_reset.scss",
-        "sha": "3f882e5dbdf80abec231429b1ee77df435ecf406"
-      }
-    ],
-    "outputSha": "3f882e5dbdf80abec231429b1ee77df435ecf406",
-    "input": "assets/styles/foundation/_reset.scss",
-    "output": [
-      "assets/styles/foundation/_reset.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/foundation/_variables.scss",
-        "sha": "ac4c49c3174d7f75afd1050dac0034fcbea85b62"
-      }
-    ],
-    "outputSha": "ac4c49c3174d7f75afd1050dac0034fcbea85b62",
-    "input": "assets/styles/foundation/_variables.scss",
-    "output": [
-      "assets/styles/foundation/_variables.scss"
     ]
   },
   {
@@ -695,6 +639,76 @@
     "type": "::map::minify",
     "inputSha": [
       {
+        "file": "assets/styles/foundation/_base.scss",
+        "sha": "e37a3f52f39afeb8bfbfd2d31d90b0ff1e7c7be5"
+      }
+    ],
+    "outputSha": "e37a3f52f39afeb8bfbfd2d31d90b0ff1e7c7be5",
+    "input": "assets/styles/foundation/_base.scss",
+    "output": [
+      "assets/styles/foundation/_base.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/foundation/_function.scss",
+        "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    ],
+    "outputSha": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "input": "assets/styles/foundation/_function.scss",
+    "output": [
+      "assets/styles/foundation/_function.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/foundation/_reset.scss",
+        "sha": "3f882e5dbdf80abec231429b1ee77df435ecf406"
+      }
+    ],
+    "outputSha": "3f882e5dbdf80abec231429b1ee77df435ecf406",
+    "input": "assets/styles/foundation/_reset.scss",
+    "output": [
+      "assets/styles/foundation/_reset.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/foundation/_variables.scss",
+        "sha": "ac4c49c3174d7f75afd1050dac0034fcbea85b62"
+      }
+    ],
+    "outputSha": "ac4c49c3174d7f75afd1050dac0034fcbea85b62",
+    "input": "assets/styles/foundation/_variables.scss",
+    "output": [
+      "assets/styles/foundation/_variables.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/object/component/_btn.scss",
+        "sha": "84db04bc724f18979b6763596a49cbe74f189963"
+      }
+    ],
+    "outputSha": "84db04bc724f18979b6763596a49cbe74f189963",
+    "input": "assets/styles/object/component/_btn.scss",
+    "output": [
+      "assets/styles/object/component/_btn.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
         "file": "assets/styles/object/utility/_display.scss",
         "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
       }
@@ -745,20 +759,6 @@
     "input": "assets/styles/object/project/_top.scss",
     "output": [
       "assets/styles/object/project/_top.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/object/component/_btn.scss",
-        "sha": "84db04bc724f18979b6763596a49cbe74f189963"
-      }
-    ],
-    "outputSha": "84db04bc724f18979b6763596a49cbe74f189963",
-    "input": "assets/styles/object/component/_btn.scss",
-    "output": [
-      "assets/styles/object/component/_btn.scss"
     ]
   }
 ]
