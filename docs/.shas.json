@@ -18,119 +18,17 @@
     "inputSha": [
       {
         "file": "sample.pug",
-        "sha": "d41a3745387ecab565a194d74d19f4f3ebd73b48"
+        "sha": "4436bbcc1b072046c0328d7a8b784c2e5e2828a0"
       },
       {
         "file": "layouts/_pages.pug",
         "sha": "173ac43c00242c9384def1323714ae694cf6a639"
       }
     ],
-    "outputSha": "edfaedb411743841fa789402d66b29cefead6737",
+    "outputSha": "31e7661392b13055531d14434570437dd5d702d8",
     "input": "sample.pug",
     "output": [
       "sample.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/index.pug",
-        "sha": "a91aa470cb68dc4856d39a110b47c27dc93759e1"
-      }
-    ],
-    "outputSha": "3e7e7e13b7e0225ecc8d365106db5599439c3994",
-    "input": "blue/index.pug",
-    "output": [
-      "blue/index.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page2.pug",
-        "sha": "35bfa2d9c71179af863e1c3737140644171385cc"
-      },
-      {
-        "file": "layouts/_page2.pug",
-        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "a74ea438bf0fe1f02716b527f44dcf891bf162ee",
-    "input": "blue/page2.pug",
-    "output": [
-      "blue/page2.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page1.pug",
-        "sha": "2ca84f08cfcfef790b0ca5b8df304aceee0ce5ea"
-      },
-      {
-        "file": "layouts/_page1.pug",
-        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "ba5362caaab3e6f39aafe00d2838b9d36c51d52f",
-    "input": "blue/page1.pug",
-    "output": [
-      "blue/page1.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page3.pug",
-        "sha": "227d0eb66ca7cc2425f9127a77318a9c6fc7b605"
-      },
-      {
-        "file": "layouts/_page3.pug",
-        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "1b172e0963a102fb1dc646579cb6200b4a2c8d7b",
-    "input": "blue/page3.pug",
-    "output": [
-      "blue/page3.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "blue/page4.pug",
-        "sha": "4a443e7456fdb81f463c2d249cf17a47b44327ca"
-      },
-      {
-        "file": "layouts/_page4.pug",
-        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "e536d1b394d88a9c7ac573ad880def307cdb0792",
-    "input": "blue/page4.pug",
-    "output": [
-      "blue/page4.html"
     ]
   },
   {
@@ -232,6 +130,210 @@
     ]
   },
   {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/index.pug",
+        "sha": "a91aa470cb68dc4856d39a110b47c27dc93759e1"
+      }
+    ],
+    "outputSha": "3e7e7e13b7e0225ecc8d365106db5599439c3994",
+    "input": "blue/index.pug",
+    "output": [
+      "blue/index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page1.pug",
+        "sha": "2ca84f08cfcfef790b0ca5b8df304aceee0ce5ea"
+      },
+      {
+        "file": "layouts/_page1.pug",
+        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "ba5362caaab3e6f39aafe00d2838b9d36c51d52f",
+    "input": "blue/page1.pug",
+    "output": [
+      "blue/page1.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page2.pug",
+        "sha": "35bfa2d9c71179af863e1c3737140644171385cc"
+      },
+      {
+        "file": "layouts/_page2.pug",
+        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "a74ea438bf0fe1f02716b527f44dcf891bf162ee",
+    "input": "blue/page2.pug",
+    "output": [
+      "blue/page2.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page3.pug",
+        "sha": "227d0eb66ca7cc2425f9127a77318a9c6fc7b605"
+      },
+      {
+        "file": "layouts/_page3.pug",
+        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "1b172e0963a102fb1dc646579cb6200b4a2c8d7b",
+    "input": "blue/page3.pug",
+    "output": [
+      "blue/page3.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "blue/page4.pug",
+        "sha": "4a443e7456fdb81f463c2d249cf17a47b44327ca"
+      },
+      {
+        "file": "layouts/_page4.pug",
+        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "e536d1b394d88a9c7ac573ad880def307cdb0792",
+    "input": "blue/page4.pug",
+    "output": [
+      "blue/page4.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "red/index.pug",
+        "sha": "8b99ba482a720493a10a924af89f18a04e7193a9"
+      }
+    ],
+    "outputSha": "5efdf4a9dbaca78bad5b386d3bb1a4ac86829840",
+    "input": "red/index.pug",
+    "output": [
+      "red/index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "red/page1.pug",
+        "sha": "a1b095ae48ecc64c9290357e63e11792318604b3"
+      },
+      {
+        "file": "layouts/_page1.pug",
+        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "e88c47c7f3762b32d2cb9a9d131e07c42bf57df2",
+    "input": "red/page1.pug",
+    "output": [
+      "red/page1.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "red/page2.pug",
+        "sha": "f5660b60f76b50d55badced417f07e95b340e8aa"
+      },
+      {
+        "file": "layouts/_page2.pug",
+        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "e2bf192da5ee8ad05ad340facb52fa2bf5b6e744",
+    "input": "red/page2.pug",
+    "output": [
+      "red/page2.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "red/page3.pug",
+        "sha": "f990b6591ed32b23443e92f33cc73cca3875e55c"
+      },
+      {
+        "file": "layouts/_page3.pug",
+        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "ef0a4df68827e60f1cd22e21ddb7c64f4e172d31",
+    "input": "red/page3.pug",
+    "output": [
+      "red/page3.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.3::map::minify",
+    "inputSha": [
+      {
+        "file": "red/page4.pug",
+        "sha": "14600a4b677f5157ac46e97eb6b321acf1714bbd"
+      },
+      {
+        "file": "layouts/_page4.pug",
+        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
+      },
+      {
+        "file": "layouts/_pages.pug",
+        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
+      }
+    ],
+    "outputSha": "15510f2fed1b7d397653d73633fc48d8391f4b77",
+    "input": "red/page4.pug",
+    "output": [
+      "red/page4.html"
+    ]
+  },
+  {
     "type": "::map::minify",
     "inputSha": [
       {
@@ -302,108 +404,6 @@
     ]
   },
   {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "red/page1.pug",
-        "sha": "a1b095ae48ecc64c9290357e63e11792318604b3"
-      },
-      {
-        "file": "layouts/_page1.pug",
-        "sha": "0138f4e05bd9dc44299a6a2c192d0c15163590b3"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "e88c47c7f3762b32d2cb9a9d131e07c42bf57df2",
-    "input": "red/page1.pug",
-    "output": [
-      "red/page1.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "red/page2.pug",
-        "sha": "f5660b60f76b50d55badced417f07e95b340e8aa"
-      },
-      {
-        "file": "layouts/_page2.pug",
-        "sha": "8b1680ba613a6f8e82a3f4f1cb03c1e333c7e3f4"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "e2bf192da5ee8ad05ad340facb52fa2bf5b6e744",
-    "input": "red/page2.pug",
-    "output": [
-      "red/page2.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "red/index.pug",
-        "sha": "8b99ba482a720493a10a924af89f18a04e7193a9"
-      }
-    ],
-    "outputSha": "5efdf4a9dbaca78bad5b386d3bb1a4ac86829840",
-    "input": "red/index.pug",
-    "output": [
-      "red/index.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "red/page3.pug",
-        "sha": "f990b6591ed32b23443e92f33cc73cca3875e55c"
-      },
-      {
-        "file": "layouts/_page3.pug",
-        "sha": "865850218f52cf2e81e4c8dcf5c129927689f123"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "ef0a4df68827e60f1cd22e21ddb7c64f4e172d31",
-    "input": "red/page3.pug",
-    "output": [
-      "red/page3.html"
-    ]
-  },
-  {
-    "type": "pug@2.0.3::map::minify",
-    "inputSha": [
-      {
-        "file": "red/page4.pug",
-        "sha": "14600a4b677f5157ac46e97eb6b321acf1714bbd"
-      },
-      {
-        "file": "layouts/_page4.pug",
-        "sha": "0f4f5fe44831465b5156d6ec4b7e747a4ed76b58"
-      },
-      {
-        "file": "layouts/_pages.pug",
-        "sha": "173ac43c00242c9384def1323714ae694cf6a639"
-      }
-    ],
-    "outputSha": "15510f2fed1b7d397653d73633fc48d8391f4b77",
-    "input": "red/page4.pug",
-    "output": [
-      "red/page4.html"
-    ]
-  },
-  {
     "type": "node-sass@4.9.0::map::minify",
     "inputSha": [
       {
@@ -462,6 +462,48 @@
     "type": "::map::minify",
     "inputSha": [
       {
+        "file": "assets/styles/layout/_footer.scss",
+        "sha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8"
+      }
+    ],
+    "outputSha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8",
+    "input": "assets/styles/layout/_footer.scss",
+    "output": [
+      "assets/styles/layout/_footer.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/layout/_header.scss",
+        "sha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad"
+      }
+    ],
+    "outputSha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad",
+    "input": "assets/styles/layout/_header.scss",
+    "output": [
+      "assets/styles/layout/_header.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "assets/styles/layout/_main.scss",
+        "sha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61"
+      }
+    ],
+    "outputSha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61",
+    "input": "assets/styles/layout/_main.scss",
+    "output": [
+      "assets/styles/layout/_main.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
         "file": "assets/styles/foundation/_base.scss",
         "sha": "e37a3f52f39afeb8bfbfd2d31d90b0ff1e7c7be5"
       }
@@ -512,48 +554,6 @@
     "input": "assets/styles/foundation/_variables.scss",
     "output": [
       "assets/styles/foundation/_variables.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/layout/_footer.scss",
-        "sha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8"
-      }
-    ],
-    "outputSha": "64e506567c40d163ca7c94bc457e8442f8d9eeb8",
-    "input": "assets/styles/layout/_footer.scss",
-    "output": [
-      "assets/styles/layout/_footer.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/layout/_header.scss",
-        "sha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad"
-      }
-    ],
-    "outputSha": "c74b3eedd28bc6dc466fdeb1b3e2cc8c71ef26ad",
-    "input": "assets/styles/layout/_header.scss",
-    "output": [
-      "assets/styles/layout/_header.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/layout/_main.scss",
-        "sha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61"
-      }
-    ],
-    "outputSha": "af2b936121a0fb85d96ee4f1b7ee86fe6de4ff61",
-    "input": "assets/styles/layout/_main.scss",
-    "output": [
-      "assets/styles/layout/_main.scss"
     ]
   },
   {
@@ -695,6 +695,20 @@
     "type": "::map::minify",
     "inputSha": [
       {
+        "file": "assets/styles/object/component/_btn.scss",
+        "sha": "84db04bc724f18979b6763596a49cbe74f189963"
+      }
+    ],
+    "outputSha": "84db04bc724f18979b6763596a49cbe74f189963",
+    "input": "assets/styles/object/component/_btn.scss",
+    "output": [
+      "assets/styles/object/component/_btn.scss"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
         "file": "assets/styles/object/project/_pages.scss",
         "sha": "feeb5f2cc169f7a92e4af2dd4a1e2fdac8f53524"
       }
@@ -745,20 +759,6 @@
     "input": "assets/styles/object/utility/_margin.scss",
     "output": [
       "assets/styles/object/utility/_margin.scss"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "assets/styles/object/component/_btn.scss",
-        "sha": "84db04bc724f18979b6763596a49cbe74f189963"
-      }
-    ],
-    "outputSha": "84db04bc724f18979b6763596a49cbe74f189963",
-    "input": "assets/styles/object/component/_btn.scss",
-    "output": [
-      "assets/styles/object/component/_btn.scss"
     ]
   }
 ]
